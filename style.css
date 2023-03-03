@@ -1,0 +1,142 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    background-image: url(background.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+
+    display: flex;
+    margin: auto;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+
+    height: 80px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    margin-right: 40px;
+
+
+
+
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: rgb(95, 190, 190);
+    font-size: large;
+    font-weight: 600;
+    transition: 2s ease;
+}
+
+ul li a:hover {
+    color: orangered;
+}
+
+.info {
+    margin-left: 8%;
+    margin-right: 6%;
+
+}
+
+.info h1 {
+
+    font-size: 65px;
+    color: black;
+}
+
+.info h3 {
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+
+
+
+    color: rgb(255, 115, 0);
+}
+
+.info a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 5px;
+    transition: 2s ease;
+}
+
+.info a:hover {
+    background-color: aqua;
+}
+
+
+
+.image img {
+    position: absolute;
+    height: 80%;
+    left: 55%;
+    /* transform: translate(-55%); */
+    top: 20%;
+    transition: left 5s ease;
+
+}
+
+.image :hover {
+    left: 40%;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    margin-top: px;
+
+
+}
+
+.icon i {
+    font-size: 50px;
+    color: black;
+    right: -40px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    transition: 2s ease;
+}
+
+.icon i:hover {
+    color: orangered;
+}
